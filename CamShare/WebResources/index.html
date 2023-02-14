@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="/resources/index.css">
+    <title>CamShare</title>    
+</head>
+
+<body>
+    <div style="display: none">
+        <svg> 
+            <symbol viewBox="0 0 16 16" id="focusnew">                                
+                <path d="M1.5 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 1-1 0v-3A1.5 1.5 0 0 1 1.5 0h3a.5.5 0 0 1 0 1h-3zM11 .5a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 1 16 1.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 1-.5-.5zM.5 11a.5.5 0 0 1 .5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 1 0 1h-3A1.5 1.5 0 0 1 0 14.5v-3a.5.5 0 0 1 .5-.5zm15 0a.5.5 0 0 1 .5.5v3a1.5 1.5 0 0 1-1.5 1.5h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 1 .5-.5zM3 4.5"/>
+                <circle cx="8" cy="8" r="1"></circle>                
+            </symbol>                
+            <symbol viewBox="0 0 16 16" id="focusnew-small">                
+                <g transform="translate(2 2) scale(0.75 0.75)">
+                    <path d="M1.5 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 1-1 0v-3A1.5 1.5 0 0 1 1.5 0h3a.5.5 0 0 1 0 1h-3zM11 .5a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 1 16 1.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 1-.5-.5zM.5 11a.5.5 0 0 1 .5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 1 0 1h-3A1.5 1.5 0 0 1 0 14.5v-3a.5.5 0 0 1 .5-.5zm15 0a.5.5 0 0 1 .5.5v3a1.5 1.5 0 0 1-1.5 1.5h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 1 .5-.5zM3 4.5"/>
+                    <circle cx="8" cy="8" r="1"></circle>
+                </g>
+            </symbol>                
+        </svg>        
+    </div>
+
+    <div id="videoWrapper">
+        <video id="mainVideo" muted>        
+        </video>
+    </div>
+
+    <div id="controls">
+        <!-- TODO add "magic" button to "freeze" both focus and exposure -->
+        <div id="top" class="group">        
+            <div id="screenshot" class="button">
+                <svg><use href="/resources/bootstrap-icons.svg#camera"></use></svg>
+            </div>        
+        </div>
+        <div id="focus" class="group">        
+            <div id="focus-freeze" class="button">
+                <svg><use href="#focusnew"></use></svg>
+            </div>
+            <div id="focus-plus" class="button">
+                <svg><use href="/resources/bootstrap-icons.svg#arrow-bar-up"></use></svg>
+            </div>        
+            <div id="focus-minus" class="button">
+                <svg><use href="/resources/bootstrap-icons.svg#arrow-bar-down"></use></svg>
+            </div>
+            <div id="focus-auto" class="button">
+                <svg id="autofocus-off"><use href="/resources/bootstrap-icons.svg#toggle-off"></use></svg>
+                <svg id="autofocus-on" class="hide"><use href="/resources/bootstrap-icons.svg#toggle-on"></use></svg>
+            </div>      
+        </div>
+        <div id="exp" class="group">        
+            <div id="exp-freeze" class="button">
+                <svg><use href="/resources/bootstrap-icons.svg#sun"></use></svg>
+            </div>
+            <div id="exp-plus" class="button">
+                <svg><use href="/resources/bootstrap-icons.svg#plus-lg"></use></svg>
+            </div>        
+            <div id="exp-minus" class="button">
+                <svg><use href="/resources/bootstrap-icons.svg#dash-lg"></use></svg>
+            </div>   
+            <div id="exp-auto" class="button">
+                <svg id="autoexp-off"><use href="/resources/bootstrap-icons.svg#toggle-off"></use></svg>
+                <svg id="autoexp-on"class="hide"><use href="/resources/bootstrap-icons.svg#toggle-on"></use></svg>
+            </div>      
+        </div>        
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

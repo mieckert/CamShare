@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		278DD32D299BDCC600F055FC /* Swifter in Frameworks */ = {isa = PBXBuildFile; productRef = 278DD32C299BDCC600F055FC /* Swifter */; };
+		278DD32F299D029500F055FC /* WebServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278DD32E299D029500F055FC /* WebServer.swift */; };
+		278DD33D299D04B500F055FC /* site.webmanifest in Resources */ = {isa = PBXBuildFile; fileRef = 278DD333299D04B400F055FC /* site.webmanifest */; };
+		278DD33E299D04B500F055FC /* android-chrome-192x192.png in Resources */ = {isa = PBXBuildFile; fileRef = 278DD334299D04B400F055FC /* android-chrome-192x192.png */; };
+		278DD33F299D04B500F055FC /* favicon-16x16.png in Resources */ = {isa = PBXBuildFile; fileRef = 278DD335299D04B400F055FC /* favicon-16x16.png */; };
+		278DD340299D04B500F055FC /* apple-touch-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 278DD336299D04B400F055FC /* apple-touch-icon.png */; };
+		278DD341299D04B500F055FC /* index.css in Resources */ = {isa = PBXBuildFile; fileRef = 278DD337299D04B500F055FC /* index.css */; };
+		278DD342299D04B500F055FC /* favicon.ico in Resources */ = {isa = PBXBuildFile; fileRef = 278DD338299D04B500F055FC /* favicon.ico */; };
+		278DD343299D04B500F055FC /* android-chrome-512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = 278DD339299D04B500F055FC /* android-chrome-512x512.png */; };
+		278DD344299D04B500F055FC /* favicon-32x32.png in Resources */ = {isa = PBXBuildFile; fileRef = 278DD33A299D04B500F055FC /* favicon-32x32.png */; };
+		278DD345299D04B500F055FC /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = 278DD33B299D04B500F055FC /* index.js */; };
+		278DD348299D051500F055FC /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 278DD347299D051500F055FC /* index.html */; };
+		278DD34C299E649500F055FC /* bootstrap-icons.svg in Resources */ = {isa = PBXBuildFile; fileRef = 278DD34B299E649500F055FC /* bootstrap-icons.svg */; };
+		278DD34E299E64AE00F055FC /* bootstrap-icons-LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 278DD34D299E64AE00F055FC /* bootstrap-icons-LICENSE.md */; };
+		278DD351299E64E800F055FC /* toggle-on.svg in Resources */ = {isa = PBXBuildFile; fileRef = 278DD34F299E64E800F055FC /* toggle-on.svg */; };
+		278DD352299E64E800F055FC /* toggle-off.svg in Resources */ = {isa = PBXBuildFile; fileRef = 278DD350299E64E800F055FC /* toggle-off.svg */; };
+		27BA0745299BBE220050B66B /* CamShareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BA0744299BBE220050B66B /* CamShareApp.swift */; };
+		27BA0747299BBE220050B66B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BA0746299BBE220050B66B /* ContentView.swift */; };
+		27BA0749299BBE230050B66B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27BA0748299BBE230050B66B /* Assets.xcassets */; };
+		27BA074C299BBE230050B66B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27BA074B299BBE230050B66B /* Preview Assets.xcassets */; };
+		27E77A0E2BD26ED500BA52D7 /* HotKey in Frameworks */ = {isa = PBXBuildFile; productRef = 27E77A0D2BD26ED500BA52D7 /* HotKey */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		278DD32E299D029500F055FC /* WebServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServer.swift; sourceTree = "<group>"; };
+		278DD333299D04B400F055FC /* site.webmanifest */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = site.webmanifest; sourceTree = "<group>"; };
+		278DD334299D04B400F055FC /* android-chrome-192x192.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "android-chrome-192x192.png"; sourceTree = "<group>"; };
+		278DD335299D04B400F055FC /* favicon-16x16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "favicon-16x16.png"; sourceTree = "<group>"; };
+		278DD336299D04B400F055FC /* apple-touch-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-icon.png"; sourceTree = "<group>"; };
+		278DD337299D04B500F055FC /* index.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = index.css; sourceTree = "<group>"; };
+		278DD338299D04B500F055FC /* favicon.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = favicon.ico; sourceTree = "<group>"; };
+		278DD339299D04B500F055FC /* android-chrome-512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "android-chrome-512x512.png"; sourceTree = "<group>"; };
+		278DD33A299D04B500F055FC /* favicon-32x32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "favicon-32x32.png"; sourceTree = "<group>"; };
+		278DD33B299D04B500F055FC /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
+		278DD347299D051500F055FC /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		278DD34B299E649500F055FC /* bootstrap-icons.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "bootstrap-icons.svg"; sourceTree = "<group>"; };
+		278DD34D299E64AE00F055FC /* bootstrap-icons-LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "bootstrap-icons-LICENSE.md"; sourceTree = "<group>"; };
+		278DD34F299E64E800F055FC /* toggle-on.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "toggle-on.svg"; sourceTree = "<group>"; };
+		278DD350299E64E800F055FC /* toggle-off.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "toggle-off.svg"; sourceTree = "<group>"; };
+		27BA0741299BBE220050B66B /* CamShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CamShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27BA0744299BBE220050B66B /* CamShareApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamShareApp.swift; sourceTree = "<group>"; };
+		27BA0746299BBE220050B66B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		27BA0748299BBE230050B66B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27BA074B299BBE230050B66B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		27BA074D299BBE230050B66B /* CamShare.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CamShare.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27BA073E299BBE220050B66B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27E77A0E2BD26ED500BA52D7 /* HotKey in Frameworks */,
+				278DD32D299BDCC600F055FC /* Swifter in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		278DD330299D02B600F055FC /* WebResources */ = {
+			isa = PBXGroup;
+			children = (
+				278DD34A299E647B00F055FC /* my-icons */,
+				278DD349299E646B00F055FC /* bootstrap-icons */,
+				278DD347299D051500F055FC /* index.html */,
+				278DD334299D04B400F055FC /* android-chrome-192x192.png */,
+				278DD339299D04B500F055FC /* android-chrome-512x512.png */,
+				278DD336299D04B400F055FC /* apple-touch-icon.png */,
+				278DD335299D04B400F055FC /* favicon-16x16.png */,
+				278DD33A299D04B500F055FC /* favicon-32x32.png */,
+				278DD338299D04B500F055FC /* favicon.ico */,
+				278DD337299D04B500F055FC /* index.css */,
+				278DD33B299D04B500F055FC /* index.js */,
+				278DD333299D04B400F055FC /* site.webmanifest */,
+			);
+			path = WebResources;
+			sourceTree = "<group>";
+		};
+		278DD349299E646B00F055FC /* bootstrap-icons */ = {
+			isa = PBXGroup;
+			children = (
+				278DD350299E64E800F055FC /* toggle-off.svg */,
+				278DD34F299E64E800F055FC /* toggle-on.svg */,
+				278DD34D299E64AE00F055FC /* bootstrap-icons-LICENSE.md */,
+				278DD34B299E649500F055FC /* bootstrap-icons.svg */,
+			);
+			path = "bootstrap-icons";
+			sourceTree = "<group>";
+		};
+		278DD34A299E647B00F055FC /* my-icons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "my-icons";
+			sourceTree = "<group>";
+		};
+		27BA0738299BBE220050B66B = {
+			isa = PBXGroup;
+			children = (
+				27BA0743299BBE220050B66B /* CamShare */,
+				27BA0742299BBE220050B66B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27BA0742299BBE220050B66B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27BA0741299BBE220050B66B /* CamShare.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27BA0743299BBE220050B66B /* CamShare */ = {
+			isa = PBXGroup;
+			children = (
+				278DD330299D02B600F055FC /* WebResources */,
+				27BA0744299BBE220050B66B /* CamShareApp.swift */,
+				27BA0746299BBE220050B66B /* ContentView.swift */,
+				27BA0748299BBE230050B66B /* Assets.xcassets */,
+				27BA074D299BBE230050B66B /* CamShare.entitlements */,
+				27BA074A299BBE230050B66B /* Preview Content */,
+				278DD32E299D029500F055FC /* WebServer.swift */,
+			);
+			path = CamShare;
+			sourceTree = "<group>";
+		};
+		27BA074A299BBE230050B66B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				27BA074B299BBE230050B66B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27BA0740299BBE220050B66B /* CamShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27BA0750299BBE230050B66B /* Build configuration list for PBXNativeTarget "CamShare" */;
+			buildPhases = (
+				27BA073D299BBE220050B66B /* Sources */,
+				27BA073E299BBE220050B66B /* Frameworks */,
+				27BA073F299BBE220050B66B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CamShare;
+			packageProductDependencies = (
+				278DD32C299BDCC600F055FC /* Swifter */,
+				27E77A0D2BD26ED500BA52D7 /* HotKey */,
+			);
+			productName = CamShare;
+			productReference = 27BA0741299BBE220050B66B /* CamShare.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27BA0739299BBE220050B66B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					27BA0740299BBE220050B66B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 27BA073C299BBE220050B66B /* Build configuration list for PBXProject "CamShare" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27BA0738299BBE220050B66B;
+			packageReferences = (
+				278DD32B299BDCC600F055FC /* XCRemoteSwiftPackageReference "swifter" */,
+				27E77A0C2BD26ED500BA52D7 /* XCRemoteSwiftPackageReference "HotKey" */,
+			);
+			productRefGroup = 27BA0742299BBE220050B66B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27BA0740299BBE220050B66B /* CamShare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27BA073F299BBE220050B66B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				278DD341299D04B500F055FC /* index.css in Resources */,
+				278DD351299E64E800F055FC /* toggle-on.svg in Resources */,
+				278DD33E299D04B500F055FC /* android-chrome-192x192.png in Resources */,
+				278DD343299D04B500F055FC /* android-chrome-512x512.png in Resources */,
+				278DD345299D04B500F055FC /* index.js in Resources */,
+				278DD342299D04B500F055FC /* favicon.ico in Resources */,
+				278DD352299E64E800F055FC /* toggle-off.svg in Resources */,
+				278DD33D299D04B500F055FC /* site.webmanifest in Resources */,
+				278DD34C299E649500F055FC /* bootstrap-icons.svg in Resources */,
+				27BA074C299BBE230050B66B /* Preview Assets.xcassets in Resources */,
+				27BA0749299BBE230050B66B /* Assets.xcassets in Resources */,
+				278DD340299D04B500F055FC /* apple-touch-icon.png in Resources */,
+				278DD348299D051500F055FC /* index.html in Resources */,
+				278DD344299D04B500F055FC /* favicon-32x32.png in Resources */,
+				278DD34E299E64AE00F055FC /* bootstrap-icons-LICENSE.md in Resources */,
+				278DD33F299D04B500F055FC /* favicon-16x16.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27BA073D299BBE220050B66B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27BA0747299BBE220050B66B /* ContentView.swift in Sources */,
+				27BA0745299BBE220050B66B /* CamShareApp.swift in Sources */,
+				278DD32F299D029500F055FC /* WebServer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		27BA074E299BBE230050B66B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27BA074F299BBE230050B66B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		27BA0751299BBE230050B66B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CamShare/CamShare.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CamShare/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.CamShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		27BA0752299BBE230050B66B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CamShare/CamShare.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CamShare/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.CamShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27BA073C299BBE220050B66B /* Build configuration list for PBXProject "CamShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27BA074E299BBE230050B66B /* Debug */,
+				27BA074F299BBE230050B66B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27BA0750299BBE230050B66B /* Build configuration list for PBXNativeTarget "CamShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27BA0751299BBE230050B66B /* Debug */,
+				27BA0752299BBE230050B66B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		278DD32B299BDCC600F055FC /* XCRemoteSwiftPackageReference "swifter" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/httpswift/swifter.git";
+			requirement = {
+				kind = exactVersion;
+				version = 1.5.0;
+			};
+		};
+		27E77A0C2BD26ED500BA52D7 /* XCRemoteSwiftPackageReference "HotKey" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/soffes/HotKey";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		278DD32C299BDCC600F055FC /* Swifter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 278DD32B299BDCC600F055FC /* XCRemoteSwiftPackageReference "swifter" */;
+			productName = Swifter;
+		};
+		27E77A0D2BD26ED500BA52D7 /* HotKey */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 27E77A0C2BD26ED500BA52D7 /* XCRemoteSwiftPackageReference "HotKey" */;
+			productName = HotKey;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 27BA0739299BBE220050B66B /* Project object */;
+}
