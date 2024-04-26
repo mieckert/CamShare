@@ -13,6 +13,8 @@ The main features of CamShare are:
   when, e.g., your hand is in the image writing things on a piece of paper or whiteboard.
 * Can run in the background as a menu bar item, so that it is quickly accessible during a video conference
 
+![Screenshot of CamShare](./camshare-screenshot.png?raw=true "Screenshot")
+
 ## Roadmap / TODOs
 - [ ] replace `sleep()` with a more proper waiting mechanism that does not block the UI in `focus()`,
       `exposure()` and `focusAndExposure()`
