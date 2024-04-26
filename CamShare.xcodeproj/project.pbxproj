@@ -32,7 +32,7 @@
 
 /* Begin PBXFileReference section */
 		273734892BDB9BF50011D6D7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		2737348A2BDBAD750011D6D7 /* camshare-screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camshare-screenshot.png"; sourceTree = "<group>"; };
+		2737348C2BDBAFC50011D6D7 /* camshare-screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camshare-screenshot.png"; sourceTree = "<group>"; };
 		278DD32E299D029500F055FC /* WebServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServer.swift; sourceTree = "<group>"; };
 		278DD333299D04B400F055FC /* site.webmanifest */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = site.webmanifest; sourceTree = "<group>"; };
 		278DD334299D04B400F055FC /* android-chrome-192x192.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "android-chrome-192x192.png"; sourceTree = "<group>"; };
@@ -109,7 +109,7 @@
 		27BA0738299BBE220050B66B = {
 			isa = PBXGroup;
 			children = (
-				2737348A2BDBAD750011D6D7 /* camshare-screenshot.png */,
+				2737348C2BDBAFC50011D6D7 /* camshare-screenshot.png */,
 				273734892BDB9BF50011D6D7 /* README.md */,
 				27BA0743299BBE220050B66B /* CamShare */,
 				27BA0742299BBE220050B66B /* Products */,
