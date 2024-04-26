@@ -70,8 +70,8 @@ struct CamShareApp: App {
             Divider()
             Button("Focus", action: focus)
             Button("Exposure", action: exposure)
-            Divider()
-            Button("Check Format", action: checkFormat)
+            //Divider()
+            //Button("Check Format", action: checkFormat)
             Divider()
             Button("Quit", action: quit)
         }
