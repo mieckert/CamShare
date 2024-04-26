@@ -20,3 +20,9 @@ The main features of CamShare are:
 - [ ] make default camera configurable or save it into a plist etc.
 - [ ] look closer at usage of `@ObservedObject` vs. using a `@StateObject` for the `SettingsManager`
 - [ ] look at sandboxing and signing (incl. opening of network socket)
+- [ ] look at other picture quality factors that cannot be easily set through the `AVCaptureDevice` API,
+      see the great [CameraController](https://github.com/Itaybre/CameraController) App for reference
+ 
+## Dependencies / used packages
+- [swifter](https://github.com/httpswift/swifter), version 1.5.0
+- [HotKey](https://github.com/soffes/HotKey), version 0.2.0 (4d02d80)
