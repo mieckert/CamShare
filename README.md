@@ -11,9 +11,23 @@ The main features of CamShare are:
   for document cameras)
 * Allows you to set and lock focus and exposure, so that the camera does not try to refocus and realign exposure
   when, e.g., your hand is in the image writing things on a piece of paper or whiteboard.
+* Global hotkeys for focus and exposure  
 * Can run in the background as a menu bar item, so that it is quickly accessible during a video conference
 
+## Screenshot
+
 ![Screenshot of CamShare](./camshare-screenshot.png?raw=true "Screenshot")
+
+## Hotkeys
+
+CamShare has (global) hotkeys to set focus and exposure:
+
+<kbd>⌃ Control</kbd> + <kbd>⇧ Shift</kbd> + <kbd>⌘ Command</kbd> + <kbd>f</kbd>: set and lock focus
+
+<kbd>⌃ Control</kbd> + <kbd>⇧ Shift</kbd> + <kbd>⌘ Command</kbd> + <kbd>e</kbd>: set and lock exposure
+
+<kbd>⌃ Control</kbd> + <kbd>⇧ Shift</kbd> + <kbd>⌘ Command</kbd> + <kbd>d</kbd>: "dial-in everything", 
+i.e., set and lock both focus and exposure
 
 ## Roadmap / TODOs
 - [ ] replace `sleep()` with a more proper waiting mechanism that does not block the UI in `focus()`,
