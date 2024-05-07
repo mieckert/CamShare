@@ -29,6 +29,12 @@ CamShare has (global) hotkeys to set focus and exposure:
 <kbd>⌃ Control</kbd> + <kbd>⇧ Shift</kbd> + <kbd>⌘ Command</kbd> + <kbd>d</kbd>: "dial-in everything", 
 i.e., set and lock both focus and exposure
 
+## Installation from Binary
+
+Download the binary from the [Release page](https://github.com/mieckert/CamShare/releases) under Assets
+or use the direct link to [Version 0.1](https://github.com/mieckert/CamShare/releases/download/v0.1/CamShare.v0.1.zip).
+Copy the contents of the zip file in your Applications folder.
+
 ## Roadmap / TODOs
 - [ ] replace `sleep()` with a more proper waiting mechanism that does not block the UI in `focus()`,
       `exposure()` and `focusAndExposure()`
