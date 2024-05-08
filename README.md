@@ -39,11 +39,15 @@ Copy the contents of the zip file in your Applications folder.
 - [ ] replace `sleep()` with a more proper waiting mechanism that does not block the UI in `focus()`,
       `exposure()` and `focusAndExposure()`
 - [ ] display hotkeys in menu bar
+- [ ] make controls overlay in browser work
 - [ ] make default camera configurable or save it into a plist etc.
 - [ ] look closer at usage of `@ObservedObject` vs. using a `@StateObject` for the `SettingsManager`
 - [ ] look at sandboxing and signing (incl. opening of network socket)
 - [ ] look at other picture quality factors that cannot be easily set through the `AVCaptureDevice` API,
       see the great [CameraController](https://github.com/Itaybre/CameraController) App for reference
+- [ ] add functionality to take "screenshots"
+- [ ] and potentially even video capture
+- [ ] allow embedding of speaker (=live image from other camera)
  
 ## Dependencies / used packages
 - [swifter](https://github.com/httpswift/swifter), version 1.5.0
